@@ -1,6 +1,6 @@
 # Identify
 
-> Laravel 5 Package to identify a User's Browser, Operating System, Language and Device, forked from unicodeveloper/laravel-identify
+> Laravel 5 Package to identify a User's Browser, Operating System, Language and Device, forked from LuizJr/laravel-identify
 
 **NOTE: Works on the latest laravel version**
 
@@ -18,14 +18,14 @@ You'll then need to run `composer install` or `composer update` to download it a
 
 Once Laravel Identify is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.
 
-* `Unicodeveloper\Identify\IdentifyServiceProvider::class`
+* `LuizJr\Identify\IdentifyServiceProvider::class`
 
 Also, register the Facade like so:
 
 ```php
 'aliases' => [
     ...
-    'Identify' => Unicodeveloper\Identify\Facades\IdentityFacade::class,
+    'Identify' => LuizJr\Identify\Facades\IdentityFacade::class,
     ...
 ]
 ```
@@ -35,7 +35,7 @@ Also, register the Facade like so:
 To get started, you'll need to publish all vendor assets:
 
 ```bash
-$ php artisan vendor:publish --provider="Unicodeveloper\Identify\IdentifyServiceProvider"
+$ php artisan vendor:publish --provider="LuizJr\Identify\IdentifyServiceProvider"
 ```
 ## Browser Detection
 
@@ -178,7 +178,7 @@ Please feel free to fork this package and contribute by submitting a pull reques
 
 Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or HackerNews? Spread the word!
 
-Don't forget to [follow me on twitter](https://twitter.com/unicodeveloper)!
+Don't forget to [follow me on twitter](https://twitter.com/LuizJr)!
 
 Thanks!
 Prosper Otemuyiwa.

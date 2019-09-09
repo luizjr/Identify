@@ -1,6 +1,6 @@
 <?php
 
-namespace Unicodeveloper\Identify;
+namespace LuizJr\Identify;
 
 use Sinergi\BrowserDetector\Browser;
 use Sinergi\BrowserDetector\Device;

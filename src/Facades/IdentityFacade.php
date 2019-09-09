@@ -1,6 +1,6 @@
 <?php
 
-namespace Unicodeveloper\Identify\Facades;
+namespace LuizJr\Identify\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

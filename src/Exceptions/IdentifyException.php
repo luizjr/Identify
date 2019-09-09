@@ -1,6 +1,6 @@
 <?php
 
-namespace Unicodeveloper\Identify\Exceptions;
+namespace LuizJr\Identify\Exceptions;
 
 use Exception;
 

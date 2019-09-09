@@ -1,6 +1,6 @@
 <?php
 
-namespace Unicodeveloper\Identify;
+namespace LuizJr\Identify;
 
 use Illuminate\Support\ServiceProvider;
 
