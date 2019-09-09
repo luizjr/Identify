@@ -1,13 +1,13 @@
 <?php
 
-namespace Unicodeveloper\Identify\Test;
+namespace LuizJr\Identify\Test;
 
 use PHPUnit_Framework_TestCase;
 use Sinergi\BrowserDetector\Browser;
 use Sinergi\BrowserDetector\Device;
 use Sinergi\BrowserDetector\Language;
 use Sinergi\BrowserDetector\Os;
-use Unicodeveloper\Identify\Identify;
+use LuizJr\Identify\Identify;
 
 class IdentifyTest extends PHPUnit_Framework_TestCase
 {

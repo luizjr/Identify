@@ -1,11 +1,11 @@
 <?php
 
-namespace Unicodeveloper\Identify\Test;
+namespace LuizJr\Identify\Test;
 
 use Mockery as m;
 use PHPUnit_Framework_TestCase;
-use Unicodeveloper\Identify\Identify;
-use Unicodeveloper\Identify\IdentifyServiceProvider;
+use LuizJr\Identify\Identify;
+use LuizJr\Identify\IdentifyServiceProvider;
 
 class IdentifyServiceProviderTest extends PHPUnit_Framework_TestCase
 {

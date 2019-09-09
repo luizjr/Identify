@@ -15,7 +15,7 @@
     "license": "MIT",
     "authors": [
       {
-        "name": "unicodeveloper",
+        "name": "LuizJr",
         "email": "prosperotemuyiwa@gmail.com"
       }
    ],
@@ -27,12 +27,12 @@
    },
    "autoload": {
         "psr-4": {
-          "Unicodeveloper\\Identify\\": "src/"
+          "LuizJr\\Identify\\": "src/"
         }
    },
    "autoload-dev": {
         "psr-4": {
-            "Unicodeveloper\\Identify\\Test\\": "tests"
+            "LuizJr\\Identify\\Test\\": "tests"
         }
     },
     "scripts": {
