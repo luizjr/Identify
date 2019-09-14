@@ -5,9 +5,7 @@
       "github",
       "laravel",
       "Open Source",
-      "Evangelist",
       "Detect",
-      "Identify",
       "Browser",
       "Operating System",
       "Language"
@@ -16,13 +14,13 @@
     "authors": [
       {
         "name": "LuizJr",
-        "email": "prosperotemuyiwa@gmail.com"
+        "email": "luizjrdeveloper@gmail.com"
       }
    ],
    "minimum-stability": "stable",
    "require": {
     "php": ">=5.5.9",
-    "illuminate/support": "6.*",
+    "illuminate/support": "^5.0|^6.0",
     "sinergi/browser-detector": "6.*"
    },
    "autoload": {
